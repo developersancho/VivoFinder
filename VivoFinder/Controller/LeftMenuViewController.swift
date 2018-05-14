@@ -14,7 +14,7 @@ class LeftMenuViewController: UIViewController {
     
     let images: [String] = ["IconHome", "IconInfo", "IconAbout"]
     
-    var controllers = ["homeViewController", "aboutViewController", "infoViewController"]
+    var controllers = ["homeViewController", "infoViewController", "aboutViewController"]
     
     lazy var tableView: UITableView = {
         let tableView = UITableView()
