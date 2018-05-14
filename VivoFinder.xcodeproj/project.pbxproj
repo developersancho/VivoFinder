@@ -7,17 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E217388E20A717380020FF30 /* SSASideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217388D20A717380020FF30 /* SSASideMenu.swift */; };
+		E217389020A71A2C0020FF30 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217388F20A71A2C0020FF30 /* LeftMenuViewController.swift */; };
+		E217389220A71A440020FF30 /* RightMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217389120A71A440020FF30 /* RightMenuViewController.swift */; };
+		E217389420A71A6E0020FF30 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217389320A71A6E0020FF30 /* AboutViewController.swift */; };
+		E217389620A731FE0020FF30 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217389520A731FE0020FF30 /* InfoViewController.swift */; };
+		E217389920A764FF0020FF30 /* SlidingUpPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217389820A764FF0020FF30 /* SlidingUpPanel.swift */; };
+		E2467B1120A87A0F00C99BEA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2467B1020A87A0F00C99BEA /* Extensions.swift */; };
+		E2467B1A20A8AAAC00C99BEA /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2467B1920A8AAAC00C99BEA /* PinAnnotation.swift */; };
 		E299543320A0CE1D00B662EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299543220A0CE1D00B662EE /* AppDelegate.swift */; };
-		E299543520A0CE1D00B662EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299543420A0CE1D00B662EE /* ViewController.swift */; };
+		E299543520A0CE1D00B662EE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299543420A0CE1D00B662EE /* HomeViewController.swift */; };
 		E299543820A0CE1D00B662EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E299543620A0CE1D00B662EE /* Main.storyboard */; };
 		E299543A20A0CE1E00B662EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E299543920A0CE1E00B662EE /* Assets.xcassets */; };
 		E299543D20A0CE1E00B662EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E299543B20A0CE1E00B662EE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E217388D20A717380020FF30 /* SSASideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSASideMenu.swift; sourceTree = "<group>"; };
+		E217388F20A71A2C0020FF30 /* LeftMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		E217389120A71A440020FF30 /* RightMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightMenuViewController.swift; sourceTree = "<group>"; };
+		E217389320A71A6E0020FF30 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		E217389520A731FE0020FF30 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		E217389820A764FF0020FF30 /* SlidingUpPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingUpPanel.swift; sourceTree = "<group>"; };
+		E2467B1020A87A0F00C99BEA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E2467B1920A8AAAC00C99BEA /* PinAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
 		E299542F20A0CE1D00B662EE /* VivoFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VivoFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E299543220A0CE1D00B662EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E299543420A0CE1D00B662EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E299543420A0CE1D00B662EE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E299543720A0CE1D00B662EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E299543920A0CE1E00B662EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E299543C20A0CE1E00B662EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +51,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E217388820A712280020FF30 /* SSASideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E217388D20A717380020FF30 /* SSASideMenu.swift */,
+			);
+			path = SSASideMenu;
+			sourceTree = "<group>";
+		};
+		E217389720A764E70020FF30 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E217389820A764FF0020FF30 /* SlidingUpPanel.swift */,
+				E2467B1020A87A0F00C99BEA /* Extensions.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E2467B1820A8AA7100C99BEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2467B1920A8AAAC00C99BEA /* PinAnnotation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E299542620A0CE1D00B662EE = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +95,29 @@
 		E299543120A0CE1D00B662EE /* VivoFinder */ = {
 			isa = PBXGroup;
 			children = (
+				E2467B1820A8AA7100C99BEA /* Model */,
+				E217389720A764E70020FF30 /* Helper */,
+				E217388820A712280020FF30 /* SSASideMenu */,
+				E299544420A0D4A200B662EE /* Controller */,
 				E299543220A0CE1D00B662EE /* AppDelegate.swift */,
-				E299543420A0CE1D00B662EE /* ViewController.swift */,
 				E299543620A0CE1D00B662EE /* Main.storyboard */,
 				E299543920A0CE1E00B662EE /* Assets.xcassets */,
 				E299543B20A0CE1E00B662EE /* LaunchScreen.storyboard */,
 				E299543E20A0CE1E00B662EE /* Info.plist */,
 			);
 			path = VivoFinder;
+			sourceTree = "<group>";
+		};
+		E299544420A0D4A200B662EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E299543420A0CE1D00B662EE /* HomeViewController.swift */,
+				E217388F20A71A2C0020FF30 /* LeftMenuViewController.swift */,
+				E217389120A71A440020FF30 /* RightMenuViewController.swift */,
+				E217389320A71A6E0020FF30 /* AboutViewController.swift */,
+				E217389520A731FE0020FF30 /* InfoViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +191,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E299543520A0CE1D00B662EE /* ViewController.swift in Sources */,
+				E217389420A71A6E0020FF30 /* AboutViewController.swift in Sources */,
+				E2467B1120A87A0F00C99BEA /* Extensions.swift in Sources */,
+				E2467B1A20A8AAAC00C99BEA /* PinAnnotation.swift in Sources */,
+				E217388E20A717380020FF30 /* SSASideMenu.swift in Sources */,
+				E299543520A0CE1D00B662EE /* HomeViewController.swift in Sources */,
+				E217389620A731FE0020FF30 /* InfoViewController.swift in Sources */,
+				E217389020A71A2C0020FF30 /* LeftMenuViewController.swift in Sources */,
 				E299543320A0CE1D00B662EE /* AppDelegate.swift in Sources */,
+				E217389920A764FF0020FF30 /* SlidingUpPanel.swift in Sources */,
+				E217389220A71A440020FF30 /* RightMenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +347,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FN6T94F922;
 				INFOPLIST_FILE = VivoFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FN6T94F922;
 				INFOPLIST_FILE = VivoFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
