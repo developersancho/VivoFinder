@@ -25,6 +25,34 @@
             </objects>
             <point key="canvasLocation" x="-570" y="-1272"/>
         </scene>
+        <!--Sliding View Controller-->
+        <scene sceneID="fIF-iT-SHc">
+            <objects>
+                <viewController restorationIdentifier="SUSlidingUp" storyboardIdentifier="SUSlidingUp" id="uvJ-7z-cAk" customClass="SlidingViewController" customModule="VivoFinder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2B0-tV-VqV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yzg-5L-S4g">
+                                <rect key="frame" x="16" y="26" width="343" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="drag_list_down_filled"/>
+                                <connections>
+                                    <action selector="toggleSlidingUpPanelBtnPressed:" destination="uvJ-7z-cAk" eventType="touchUpInside" id="s50-DJ-zyt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="aAb-IH-2sQ"/>
+                    </view>
+                    <connections>
+                        <outlet property="toggleSlidingUpPanelBtn" destination="yzg-5L-S4g" id="N90-qZ-SA1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aEy-I4-pNQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="96.799999999999997" y="-1469.4152923538231"/>
+        </scene>
         <!--VIVOFINDER-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -32,14 +60,28 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="1m9-XY-fC2">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1m9-XY-fC2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="F2C-C0-zAG"/>
+                            <constraint firstItem="1m9-XY-fC2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="nzO-ap-XzG"/>
+                            <constraint firstItem="1m9-XY-fC2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wRw-Uz-EA9"/>
+                            <constraint firstItem="1m9-XY-fC2" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="zzh-21-OoT"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="VIVOFINDER" id="506-Gj-Dfv" propertyAccessControl="none"/>
+                    <connections>
+                        <outlet property="map" destination="1m9-XY-fC2" id="6Dg-wL-pH8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1300" y="-580"/>
+            <point key="canvasLocation" x="1299.5" y="-581.5"/>
         </scene>
         <!--About View Controller-->
         <scene sceneID="aKh-s2-OUE">
@@ -156,6 +198,7 @@
     </scenes>
     <resources>
         <image name="background_night" width="640" height="960"/>
+        <image name="drag_list_down_filled" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="XqS-pk-mPo"/>

@@ -108,13 +108,17 @@ class SlidingUpPanel: UIView {
                         self.halfOpen()
                     }
                     break;
+                   
                 case .halfOpened:
+                    
                     if y < parentY / 2.0 {
                         self.open()
                     } else {
                         self.close()
                     }
+ 
                     break;
+ 
                 case .opened:
                     if y < parentY / 2.0 {
                         self.halfOpen()
@@ -149,7 +153,8 @@ class SlidingUpPanel: UIView {
             self.halfOpen();
             break;
         case .halfOpened:
-            self.open();
+            //self.open();
+            self.close();
             break;
         default:
             self.close();
@@ -175,7 +180,7 @@ class SlidingUpPanel: UIView {
         self.delegate?.willHalfOpen()
         UIView.animate(withDuration: self.animationDuration, animations: {
             if let parent = self.superview {
-                self.frame.origin.y = parent.bounds.height / 2.0;
+                self.frame.origin.y = parent.bounds.height / 2.5;
                 self.tooltip?.frame.origin.y = self.frame.height - self.tooltipHeight * 2 ;
             }
         }) { (_) in

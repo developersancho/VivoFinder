@@ -15,6 +15,8 @@
 		E217389920A764FF0020FF30 /* SlidingUpPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217389820A764FF0020FF30 /* SlidingUpPanel.swift */; };
 		E2467B1120A87A0F00C99BEA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2467B1020A87A0F00C99BEA /* Extensions.swift */; };
 		E2467B1A20A8AAAC00C99BEA /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2467B1920A8AAAC00C99BEA /* PinAnnotation.swift */; };
+		E24729CB20B01A3F0052FE0B /* TSSlidingUpPanelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24729CA20B01A3F0052FE0B /* TSSlidingUpPanelManager.swift */; };
+		E24729CD20B01C3E0052FE0B /* SlidingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24729CC20B01C3E0052FE0B /* SlidingViewController.swift */; };
 		E299543320A0CE1D00B662EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299543220A0CE1D00B662EE /* AppDelegate.swift */; };
 		E299543520A0CE1D00B662EE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299543420A0CE1D00B662EE /* HomeViewController.swift */; };
 		E299543820A0CE1D00B662EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E299543620A0CE1D00B662EE /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 		E217389820A764FF0020FF30 /* SlidingUpPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingUpPanel.swift; sourceTree = "<group>"; };
 		E2467B1020A87A0F00C99BEA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E2467B1920A8AAAC00C99BEA /* PinAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
+		E24729CA20B01A3F0052FE0B /* TSSlidingUpPanelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSSlidingUpPanelManager.swift; sourceTree = "<group>"; };
+		E24729CC20B01C3E0052FE0B /* SlidingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingViewController.swift; sourceTree = "<group>"; };
 		E299542F20A0CE1D00B662EE /* VivoFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VivoFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E299543220A0CE1D00B662EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E299543420A0CE1D00B662EE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +66,6 @@
 		E217389720A764E70020FF30 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				E217389820A764FF0020FF30 /* SlidingUpPanel.swift */,
 				E2467B1020A87A0F00C99BEA /* Extensions.swift */,
 			);
 			path = Helper;
@@ -74,6 +77,15 @@
 				E2467B1920A8AAAC00C99BEA /* PinAnnotation.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E24729C920B016740052FE0B /* SlidingPanel */ = {
+			isa = PBXGroup;
+			children = (
+				E217389820A764FF0020FF30 /* SlidingUpPanel.swift */,
+				E24729CA20B01A3F0052FE0B /* TSSlidingUpPanelManager.swift */,
+			);
+			path = SlidingPanel;
 			sourceTree = "<group>";
 		};
 		E299542620A0CE1D00B662EE = {
@@ -95,6 +107,7 @@
 		E299543120A0CE1D00B662EE /* VivoFinder */ = {
 			isa = PBXGroup;
 			children = (
+				E24729C920B016740052FE0B /* SlidingPanel */,
 				E2467B1820A8AA7100C99BEA /* Model */,
 				E217389720A764E70020FF30 /* Helper */,
 				E217388820A712280020FF30 /* SSASideMenu */,
@@ -116,6 +129,7 @@
 				E217389120A71A440020FF30 /* RightMenuViewController.swift */,
 				E217389320A71A6E0020FF30 /* AboutViewController.swift */,
 				E217389520A731FE0020FF30 /* InfoViewController.swift */,
+				E24729CC20B01C3E0052FE0B /* SlidingViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -192,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E217389420A71A6E0020FF30 /* AboutViewController.swift in Sources */,
+				E24729CB20B01A3F0052FE0B /* TSSlidingUpPanelManager.swift in Sources */,
 				E2467B1120A87A0F00C99BEA /* Extensions.swift in Sources */,
 				E2467B1A20A8AAAC00C99BEA /* PinAnnotation.swift in Sources */,
 				E217388E20A717380020FF30 /* SSASideMenu.swift in Sources */,
@@ -201,6 +216,7 @@
 				E299543320A0CE1D00B662EE /* AppDelegate.swift in Sources */,
 				E217389920A764FF0020FF30 /* SlidingUpPanel.swift in Sources */,
 				E217389220A71A440020FF30 /* RightMenuViewController.swift in Sources */,
+				E24729CD20B01C3E0052FE0B /* SlidingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
