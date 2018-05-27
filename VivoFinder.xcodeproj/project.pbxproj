@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920FA2156C72EAE2695866F3 /* Pods_VivoFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DAF95593074B0F10D1CA450 /* Pods_VivoFinder.framework */; };
+		E20A459F20B95B1B007B3566 /* PullUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A459E20B95B1B007B3566 /* PullUpController.swift */; };
+		E20A45A120B95B72007B3566 /* ContentMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A45A020B95B72007B3566 /* ContentMenuViewController.swift */; };
+		E20A45A420B977CE007B3566 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A45A320B977CE007B3566 /* CardView.swift */; };
 		E217388E20A717380020FF30 /* SSASideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217388D20A717380020FF30 /* SSASideMenu.swift */; };
 		E217389020A71A2C0020FF30 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217388F20A71A2C0020FF30 /* LeftMenuViewController.swift */; };
 		E217389220A71A440020FF30 /* RightMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217389120A71A440020FF30 /* RightMenuViewController.swift */; };
@@ -17,6 +21,7 @@
 		E2467B1A20A8AAAC00C99BEA /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2467B1920A8AAAC00C99BEA /* PinAnnotation.swift */; };
 		E24729CB20B01A3F0052FE0B /* TSSlidingUpPanelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24729CA20B01A3F0052FE0B /* TSSlidingUpPanelManager.swift */; };
 		E24729CD20B01C3E0052FE0B /* SlidingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24729CC20B01C3E0052FE0B /* SlidingViewController.swift */; };
+		E27760CB20BB01B000260302 /* LGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27760CA20BB01B000260302 /* LGButton.swift */; };
 		E299543320A0CE1D00B662EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299543220A0CE1D00B662EE /* AppDelegate.swift */; };
 		E299543520A0CE1D00B662EE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299543420A0CE1D00B662EE /* HomeViewController.swift */; };
 		E299543820A0CE1D00B662EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E299543620A0CE1D00B662EE /* Main.storyboard */; };
@@ -25,6 +30,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A54110C7DFFB18CA94B0E32 /* Pods-VivoFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivoFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VivoFinder/Pods-VivoFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		6DAF95593074B0F10D1CA450 /* Pods_VivoFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VivoFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		936DB39B3F123EB96B6A0ECE /* Pods-VivoFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivoFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-VivoFinder/Pods-VivoFinder.release.xcconfig"; sourceTree = "<group>"; };
+		E20A459E20B95B1B007B3566 /* PullUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullUpController.swift; sourceTree = "<group>"; };
+		E20A45A020B95B72007B3566 /* ContentMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMenuViewController.swift; sourceTree = "<group>"; };
+		E20A45A320B977CE007B3566 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		E217388D20A717380020FF30 /* SSASideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSASideMenu.swift; sourceTree = "<group>"; };
 		E217388F20A71A2C0020FF30 /* LeftMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
 		E217389120A71A440020FF30 /* RightMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightMenuViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +46,7 @@
 		E2467B1920A8AAAC00C99BEA /* PinAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
 		E24729CA20B01A3F0052FE0B /* TSSlidingUpPanelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSSlidingUpPanelManager.swift; sourceTree = "<group>"; };
 		E24729CC20B01C3E0052FE0B /* SlidingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingViewController.swift; sourceTree = "<group>"; };
+		E27760CA20BB01B000260302 /* LGButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGButton.swift; sourceTree = "<group>"; };
 		E299542F20A0CE1D00B662EE /* VivoFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VivoFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E299543220A0CE1D00B662EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E299543420A0CE1D00B662EE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -49,12 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				920FA2156C72EAE2695866F3 /* Pods_VivoFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46A53F53D88D7570C2B2328F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DAF95593074B0F10D1CA450 /* Pods_VivoFinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E20A459D20B95B06007B3566 /* PullUpController */ = {
+			isa = PBXGroup;
+			children = (
+				E20A459E20B95B1B007B3566 /* PullUpController.swift */,
+			);
+			path = PullUpController;
+			sourceTree = "<group>";
+		};
+		E20A45A220B977BA007B3566 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				E20A45A320B977CE007B3566 /* CardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
 		E217388820A712280020FF30 /* SSASideMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,11 +125,30 @@
 			path = SlidingPanel;
 			sourceTree = "<group>";
 		};
+		E27760C620BB013800260302 /* old */ = {
+			isa = PBXGroup;
+			children = (
+				E24729CC20B01C3E0052FE0B /* SlidingViewController.swift */,
+				E20A45A020B95B72007B3566 /* ContentMenuViewController.swift */,
+			);
+			path = old;
+			sourceTree = "<group>";
+		};
+		E27760C720BB019000260302 /* LGBtn */ = {
+			isa = PBXGroup;
+			children = (
+				E27760CA20BB01B000260302 /* LGButton.swift */,
+			);
+			path = LGBtn;
+			sourceTree = "<group>";
+		};
 		E299542620A0CE1D00B662EE = {
 			isa = PBXGroup;
 			children = (
 				E299543120A0CE1D00B662EE /* VivoFinder */,
 				E299543020A0CE1D00B662EE /* Products */,
+				F778C1DB704B0DA08CA0A4A3 /* Pods */,
+				46A53F53D88D7570C2B2328F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +163,9 @@
 		E299543120A0CE1D00B662EE /* VivoFinder */ = {
 			isa = PBXGroup;
 			children = (
+				E27760C720BB019000260302 /* LGBtn */,
+				E20A45A220B977BA007B3566 /* CardView */,
+				E20A459D20B95B06007B3566 /* PullUpController */,
 				E24729C920B016740052FE0B /* SlidingPanel */,
 				E2467B1820A8AA7100C99BEA /* Model */,
 				E217389720A764E70020FF30 /* Helper */,
@@ -124,14 +183,23 @@
 		E299544420A0D4A200B662EE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E27760C620BB013800260302 /* old */,
 				E299543420A0CE1D00B662EE /* HomeViewController.swift */,
 				E217388F20A71A2C0020FF30 /* LeftMenuViewController.swift */,
 				E217389120A71A440020FF30 /* RightMenuViewController.swift */,
 				E217389320A71A6E0020FF30 /* AboutViewController.swift */,
 				E217389520A731FE0020FF30 /* InfoViewController.swift */,
-				E24729CC20B01C3E0052FE0B /* SlidingViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		F778C1DB704B0DA08CA0A4A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A54110C7DFFB18CA94B0E32 /* Pods-VivoFinder.debug.xcconfig */,
+				936DB39B3F123EB96B6A0ECE /* Pods-VivoFinder.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E299544120A0CE1E00B662EE /* Build configuration list for PBXNativeTarget "VivoFinder" */;
 			buildPhases = (
+				55284FBC15B2946843D46276 /* [CP] Check Pods Manifest.lock */,
 				E299542B20A0CE1D00B662EE /* Sources */,
 				E299542C20A0CE1D00B662EE /* Frameworks */,
 				E299542D20A0CE1D00B662EE /* Resources */,
+				EC947154FB2500C7E1049219 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,6 +270,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55284FBC15B2946843D46276 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VivoFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC947154FB2500C7E1049219 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VivoFinder/Pods-VivoFinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Pulley/Pulley.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftIconFont/SwiftIconFont.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulley.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIconFont.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VivoFinder/Pods-VivoFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E299542B20A0CE1D00B662EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -209,12 +320,16 @@
 				E24729CB20B01A3F0052FE0B /* TSSlidingUpPanelManager.swift in Sources */,
 				E2467B1120A87A0F00C99BEA /* Extensions.swift in Sources */,
 				E2467B1A20A8AAAC00C99BEA /* PinAnnotation.swift in Sources */,
+				E20A45A420B977CE007B3566 /* CardView.swift in Sources */,
 				E217388E20A717380020FF30 /* SSASideMenu.swift in Sources */,
 				E299543520A0CE1D00B662EE /* HomeViewController.swift in Sources */,
+				E20A45A120B95B72007B3566 /* ContentMenuViewController.swift in Sources */,
+				E27760CB20BB01B000260302 /* LGButton.swift in Sources */,
 				E217389620A731FE0020FF30 /* InfoViewController.swift in Sources */,
 				E217389020A71A2C0020FF30 /* LeftMenuViewController.swift in Sources */,
 				E299543320A0CE1D00B662EE /* AppDelegate.swift in Sources */,
 				E217389920A764FF0020FF30 /* SlidingUpPanel.swift in Sources */,
+				E20A459F20B95B1B007B3566 /* PullUpController.swift in Sources */,
 				E217389220A71A440020FF30 /* RightMenuViewController.swift in Sources */,
 				E24729CD20B01C3E0052FE0B /* SlidingViewController.swift in Sources */,
 			);
@@ -358,6 +473,7 @@
 		};
 		E299544220A0CE1E00B662EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A54110C7DFFB18CA94B0E32 /* Pods-VivoFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -377,6 +493,7 @@
 		};
 		E299544320A0CE1E00B662EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 936DB39B3F123EB96B6A0ECE /* Pods-VivoFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

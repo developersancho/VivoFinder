@@ -13,24 +13,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
     
+    fileprivate func navbar(_ application: UIApplication) {
+        let navigationBarAppearace = UINavigationBar.appearance()
+        navigationBarAppearace.barStyle = UIBarStyle.black
+        navigationBarAppearace.isTranslucent = false
+        if #available(iOS 11.0, *) {
+            navigationBarAppearace.barTintColor = UIColor(named: "ColorPrimary")
+        } else {
+            navigationBarAppearace.barTintColor = UIColor(displayP3Red: 143/255, green: 33/255, blue:33/255 , alpha: 1)
+        }
+        //navigationBarAppearace.tintColor = UIColor.white
+        navigationBarAppearace.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+        navigationBarAppearace.titleTextAttributes = [NSAttributedStringKey.font: UIFont(name: "Futura", size: 22.0)!]
+        
+        //navigationBarAppearace.prefersLargeTitles = true
+        application.statusBarStyle = .lightContent
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         Thread.sleep(forTimeInterval: 1.5)
         
-         let navigationBarAppearace = UINavigationBar.appearance()
-         navigationBarAppearace.barStyle = UIBarStyle.black
-         navigationBarAppearace.isTranslucent = false
-         if #available(iOS 11.0, *) {
-         navigationBarAppearace.barTintColor = UIColor(named: "ColorPrimary")
-         } else {
-         navigationBarAppearace.barTintColor = UIColor(displayP3Red: 143/255, green: 33/255, blue:33/255 , alpha: 1)
-         }
-         //navigationBarAppearace.tintColor = UIColor.white
-         navigationBarAppearace.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
-         navigationBarAppearace.titleTextAttributes = [NSAttributedStringKey.font: UIFont(name: "Futura", size: 22.0)!]
-         
-         //navigationBarAppearace.prefersLargeTitles = true
-         application.statusBarStyle = .lightContent
+        navbar(application)
         
         //application.isStatusBarHidden = true
         return true

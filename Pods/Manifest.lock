@@ -1,0 +1,20 @@
+PODS:
+  - Pulley (2.4.0)
+  - SwiftIconFont (2.7.4)
+
+DEPENDENCIES:
+  - Pulley
+  - SwiftIconFont
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Pulley
+    - SwiftIconFont
+
+SPEC CHECKSUMS:
+  Pulley: 604066ea5d24339a8701b0167a2c8131a589e705
+  SwiftIconFont: 89fd5ec727835ea3df795ada3c45010ac87afa84
+
+PODFILE CHECKSUM: 327ce1bbddf737df014445cb3093132955b2d6ea
+
+COCOAPODS: 1.5.0

@@ -11,21 +11,11 @@ import MapKit
 import CoreLocation
 
 class HomeViewController: UIViewController, CLLocationManagerDelegate {
-
-    @IBOutlet weak var map: MKMapView!
-    var locationManager = CLLocationManager()
     
-    /*
-    let map : MKMapView = {
-        let mapView = MKMapView()
-        return mapView
-    }()
-    */
-    let myView : UIView = {
-        let view = UIView()
-        view.backgroundColor = UIColor.blue
-        return view
-    }()
+    @IBOutlet weak var btnNearBy: UIButton!
+    @IBOutlet weak var map: MKMapView!
+    @IBOutlet weak var contentView: UIView!
+    var locationManager = CLLocationManager()
     
     fileprivate func loadLocationPin() {
         locationManager.delegate = self
@@ -42,18 +32,35 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         map.addAnnotation(pin)
     }
     
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavBar()
         loadLocationPin()
-    
+        if #available(iOS 11.0, *) {
+            contentView.backgroundColor = UIColor(named: "ColorPrimary")
+        } else {
+            contentView.backgroundColor = UIColor(displayP3Red: 143/255, green: 33/255, blue:33/255 , alpha: 1)
+        }
+        
+        btnNearBy.layer.cornerRadius = 25
     }
-    
+    /*
+    private func addPullUpController() {
+        guard
+            let pullUpController = UIStoryboard(name: "Main", bundle: nil)
+                .instantiateViewController(withIdentifier: "contentMenuViewController") as? ContentMenuViewController
+            else { return }
+        
+        addPullUpController(pullUpController)
+    }
+    */
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated);
     }
+    
+    @IBAction func openNearByClick(_ sender: Any) {
+    }
+    
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let location = locations[0]
@@ -66,7 +73,6 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     func setupNavBar(){
-        view.backgroundColor = UIColor.white
         title = "VIVOFINDER"
         
         let icon = UIImage(named: "menu")
@@ -81,8 +87,8 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         let height = barButton.customView?.heightAnchor.constraint(equalToConstant: 30)
         height?.isActive = true
         
-        //navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Right", style: .done, target: self, action: #selector(SSASideMenu.presentRightMenuViewController))
-        //view.addSubview(homeMap)
+        //navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Kategoriler", style: .done, target: self, action: #selector(SSASideMenu.presentRightMenuViewController))
+        
     }
     
 }
