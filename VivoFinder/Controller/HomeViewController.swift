@@ -58,9 +58,16 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         super.viewDidAppear(animated);
     }
     
+    /*
     @IBAction func openNearByClick(_ sender: Any) {
+        switchToViewController(identifier: "listAllViewController")
     }
+ */
     
+    func switchToViewController(identifier: String) {
+        let viewController = self.storyboard?.instantiateViewController(withIdentifier: identifier)
+        self.navigationController?.setViewControllers([viewController!], animated: false)
+    }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let location = locations[0]

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A058C8D6D8B7EB7A9A0679BDC5D6EBD8"
-               BuildableName = "Pods_VivoFinder.framework"
-               BlueprintName = "Pods-VivoFinder"
+               BlueprintIdentifier = "6CEB48BC7ED6B6FA288EB726F6C6972F"
+               BuildableName = "SwiftyJSON.framework"
+               BlueprintName = "SwiftyJSON"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A058C8D6D8B7EB7A9A0679BDC5D6EBD8"
-            BuildableName = "Pods_VivoFinder.framework"
-            BlueprintName = "Pods-VivoFinder"
+            BlueprintIdentifier = "6CEB48BC7ED6B6FA288EB726F6C6972F"
+            BuildableName = "SwiftyJSON.framework"
+            BlueprintName = "SwiftyJSON"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -19,10 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navigationBarAppearace.isTranslucent = false
         if #available(iOS 11.0, *) {
             navigationBarAppearace.barTintColor = UIColor(named: "ColorPrimary")
+            navigationBarAppearace.tintColor = UIColor.white
         } else {
             navigationBarAppearace.barTintColor = UIColor(displayP3Red: 143/255, green: 33/255, blue:33/255 , alpha: 1)
         }
-        //navigationBarAppearace.tintColor = UIColor.white
+        
         navigationBarAppearace.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
         navigationBarAppearace.titleTextAttributes = [NSAttributedStringKey.font: UIFont(name: "Futura", size: 22.0)!]
         

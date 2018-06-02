@@ -1,20 +1,20 @@
 PODS:
-  - Pulley (2.4.0)
-  - SwiftIconFont (2.7.4)
+  - Alamofire (4.7.2)
+  - SwiftyJSON (4.1.0)
 
 DEPENDENCIES:
-  - Pulley
-  - SwiftIconFont
+  - Alamofire
+  - SwiftyJSON
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - Pulley
-    - SwiftIconFont
+    - Alamofire
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
-  Pulley: 604066ea5d24339a8701b0167a2c8131a589e705
-  SwiftIconFont: 89fd5ec727835ea3df795ada3c45010ac87afa84
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
 
-PODFILE CHECKSUM: 327ce1bbddf737df014445cb3093132955b2d6ea
+PODFILE CHECKSUM: 36cc82886fb51484744992fb8afe74569f665daf
 
 COCOAPODS: 1.5.0

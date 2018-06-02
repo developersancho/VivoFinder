@@ -5,7 +5,7 @@ target 'VivoFinder' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'Pulley'
-  pod 'SwiftIconFont'
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
 
 end

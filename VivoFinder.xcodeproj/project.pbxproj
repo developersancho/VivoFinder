@@ -21,12 +21,16 @@
 		E2467B1A20A8AAAC00C99BEA /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2467B1920A8AAAC00C99BEA /* PinAnnotation.swift */; };
 		E24729CB20B01A3F0052FE0B /* TSSlidingUpPanelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24729CA20B01A3F0052FE0B /* TSSlidingUpPanelManager.swift */; };
 		E24729CD20B01C3E0052FE0B /* SlidingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24729CC20B01C3E0052FE0B /* SlidingViewController.swift */; };
-		E27760CB20BB01B000260302 /* LGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27760CA20BB01B000260302 /* LGButton.swift */; };
+		E292D3D820BF23E300F0BB8A /* ListAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E292D3D720BF23E300F0BB8A /* ListAllViewController.swift */; };
 		E299543320A0CE1D00B662EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299543220A0CE1D00B662EE /* AppDelegate.swift */; };
 		E299543520A0CE1D00B662EE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299543420A0CE1D00B662EE /* HomeViewController.swift */; };
 		E299543820A0CE1D00B662EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E299543620A0CE1D00B662EE /* Main.storyboard */; };
 		E299543A20A0CE1E00B662EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E299543920A0CE1E00B662EE /* Assets.xcassets */; };
 		E299543D20A0CE1E00B662EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E299543B20A0CE1E00B662EE /* LaunchScreen.storyboard */; };
+		E2A0A95120C3337100D4B485 /* VivoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A0A95020C3337100D4B485 /* VivoModel.swift */; };
+		E2A0A95620C3341900D4B485 /* VivoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A0A95420C3341900D4B485 /* VivoTableViewCell.swift */; };
+		E2A0A95720C3341900D4B485 /* VivoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2A0A95520C3341900D4B485 /* VivoTableViewCell.xib */; };
+		E2A0A95A20C33A3D00D4B485 /* VivoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A0A95920C33A3D00D4B485 /* VivoService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,7 +50,7 @@
 		E2467B1920A8AAAC00C99BEA /* PinAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
 		E24729CA20B01A3F0052FE0B /* TSSlidingUpPanelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSSlidingUpPanelManager.swift; sourceTree = "<group>"; };
 		E24729CC20B01C3E0052FE0B /* SlidingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingViewController.swift; sourceTree = "<group>"; };
-		E27760CA20BB01B000260302 /* LGButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGButton.swift; sourceTree = "<group>"; };
+		E292D3D720BF23E300F0BB8A /* ListAllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAllViewController.swift; sourceTree = "<group>"; };
 		E299542F20A0CE1D00B662EE /* VivoFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VivoFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E299543220A0CE1D00B662EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E299543420A0CE1D00B662EE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,10 @@
 		E299543920A0CE1E00B662EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E299543C20A0CE1E00B662EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E299543E20A0CE1E00B662EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2A0A95020C3337100D4B485 /* VivoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VivoModel.swift; sourceTree = "<group>"; };
+		E2A0A95420C3341900D4B485 /* VivoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VivoTableViewCell.swift; sourceTree = "<group>"; };
+		E2A0A95520C3341900D4B485 /* VivoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VivoTableViewCell.xib; sourceTree = "<group>"; };
+		E2A0A95920C33A3D00D4B485 /* VivoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VivoService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				E2467B1920A8AAAC00C99BEA /* PinAnnotation.swift */,
+				E2A0A95020C3337100D4B485 /* VivoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -132,14 +141,6 @@
 				E20A45A020B95B72007B3566 /* ContentMenuViewController.swift */,
 			);
 			path = old;
-			sourceTree = "<group>";
-		};
-		E27760C720BB019000260302 /* LGBtn */ = {
-			isa = PBXGroup;
-			children = (
-				E27760CA20BB01B000260302 /* LGButton.swift */,
-			);
-			path = LGBtn;
 			sourceTree = "<group>";
 		};
 		E299542620A0CE1D00B662EE = {
@@ -163,7 +164,8 @@
 		E299543120A0CE1D00B662EE /* VivoFinder */ = {
 			isa = PBXGroup;
 			children = (
-				E27760C720BB019000260302 /* LGBtn */,
+				E2A0A95820C33A2D00D4B485 /* Service */,
+				E2A0A95220C333F000D4B485 /* Cells */,
 				E20A45A220B977BA007B3566 /* CardView */,
 				E20A459D20B95B06007B3566 /* PullUpController */,
 				E24729C920B016740052FE0B /* SlidingPanel */,
@@ -189,8 +191,34 @@
 				E217389120A71A440020FF30 /* RightMenuViewController.swift */,
 				E217389320A71A6E0020FF30 /* AboutViewController.swift */,
 				E217389520A731FE0020FF30 /* InfoViewController.swift */,
+				E292D3D720BF23E300F0BB8A /* ListAllViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2A0A95220C333F000D4B485 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E2A0A95320C3340300D4B485 /* VivoCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E2A0A95320C3340300D4B485 /* VivoCell */ = {
+			isa = PBXGroup;
+			children = (
+				E2A0A95420C3341900D4B485 /* VivoTableViewCell.swift */,
+				E2A0A95520C3341900D4B485 /* VivoTableViewCell.xib */,
+			);
+			path = VivoCell;
+			sourceTree = "<group>";
+		};
+		E2A0A95820C33A2D00D4B485 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E2A0A95920C33A3D00D4B485 /* VivoService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		F778C1DB704B0DA08CA0A4A3 /* Pods */ = {
@@ -263,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E299543D20A0CE1E00B662EE /* LaunchScreen.storyboard in Resources */,
+				E2A0A95720C3341900D4B485 /* VivoTableViewCell.xib in Resources */,
 				E299543A20A0CE1E00B662EE /* Assets.xcassets in Resources */,
 				E299543820A0CE1D00B662EE /* Main.storyboard in Resources */,
 			);
@@ -296,13 +325,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-VivoFinder/Pods-VivoFinder-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Pulley/Pulley.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftIconFont/SwiftIconFont.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulley.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIconFont.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -318,14 +347,17 @@
 			files = (
 				E217389420A71A6E0020FF30 /* AboutViewController.swift in Sources */,
 				E24729CB20B01A3F0052FE0B /* TSSlidingUpPanelManager.swift in Sources */,
+				E2A0A95A20C33A3D00D4B485 /* VivoService.swift in Sources */,
 				E2467B1120A87A0F00C99BEA /* Extensions.swift in Sources */,
 				E2467B1A20A8AAAC00C99BEA /* PinAnnotation.swift in Sources */,
 				E20A45A420B977CE007B3566 /* CardView.swift in Sources */,
 				E217388E20A717380020FF30 /* SSASideMenu.swift in Sources */,
+				E292D3D820BF23E300F0BB8A /* ListAllViewController.swift in Sources */,
 				E299543520A0CE1D00B662EE /* HomeViewController.swift in Sources */,
 				E20A45A120B95B72007B3566 /* ContentMenuViewController.swift in Sources */,
-				E27760CB20BB01B000260302 /* LGButton.swift in Sources */,
+				E2A0A95120C3337100D4B485 /* VivoModel.swift in Sources */,
 				E217389620A731FE0020FF30 /* InfoViewController.swift in Sources */,
+				E2A0A95620C3341900D4B485 /* VivoTableViewCell.swift in Sources */,
 				E217389020A71A2C0020FF30 /* LeftMenuViewController.swift in Sources */,
 				E299543320A0CE1D00B662EE /* AppDelegate.swift in Sources */,
 				E217389920A764FF0020FF30 /* SlidingUpPanel.swift in Sources */,
