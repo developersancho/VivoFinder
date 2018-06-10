@@ -16,6 +16,7 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var map: MKMapView!
     @IBOutlet weak var contentView: UIView!
     var locationManager = CLLocationManager()
+    var myLocation = CLLocation()
     
     fileprivate func loadLocationPin() {
         locationManager.delegate = self
@@ -58,11 +59,15 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         super.viewDidAppear(animated);
     }
     
-    /*
+    
     @IBAction func openNearByClick(_ sender: Any) {
-        switchToViewController(identifier: "listAllViewController")
+        performSegue(withIdentifier: "myLocation", sender: self)
     }
- */
+ 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! ListAllViewController
+        vc.mylocation = self.myLocation
+    }
     
     func switchToViewController(identifier: String) {
         let viewController = self.storyboard?.instantiateViewController(withIdentifier: identifier)
@@ -77,6 +82,7 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         
         map.setRegion(region, animated: true)
         map.showsUserLocation = true
+        myLocation = location
     }
     
     func setupNavBar(){

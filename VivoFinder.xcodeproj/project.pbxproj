@@ -17,6 +17,7 @@
 		E217389420A71A6E0020FF30 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217389320A71A6E0020FF30 /* AboutViewController.swift */; };
 		E217389620A731FE0020FF30 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217389520A731FE0020FF30 /* InfoViewController.swift */; };
 		E217389920A764FF0020FF30 /* SlidingUpPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217389820A764FF0020FF30 /* SlidingUpPanel.swift */; };
+		E23FF7EE20CCA44F00825766 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23FF7ED20CCA44F00825766 /* Common.swift */; };
 		E2467B1120A87A0F00C99BEA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2467B1020A87A0F00C99BEA /* Extensions.swift */; };
 		E2467B1A20A8AAAC00C99BEA /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2467B1920A8AAAC00C99BEA /* PinAnnotation.swift */; };
 		E24729CB20B01A3F0052FE0B /* TSSlidingUpPanelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24729CA20B01A3F0052FE0B /* TSSlidingUpPanelManager.swift */; };
@@ -46,6 +47,7 @@
 		E217389320A71A6E0020FF30 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		E217389520A731FE0020FF30 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		E217389820A764FF0020FF30 /* SlidingUpPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingUpPanel.swift; sourceTree = "<group>"; };
+		E23FF7ED20CCA44F00825766 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		E2467B1020A87A0F00C99BEA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E2467B1920A8AAAC00C99BEA /* PinAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
 		E24729CA20B01A3F0052FE0B /* TSSlidingUpPanelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSSlidingUpPanelManager.swift; sourceTree = "<group>"; };
@@ -116,6 +118,14 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+		E23FF7EC20CCA44000825766 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E23FF7ED20CCA44F00825766 /* Common.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		E2467B1820A8AA7100C99BEA /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +174,7 @@
 		E299543120A0CE1D00B662EE /* VivoFinder */ = {
 			isa = PBXGroup;
 			children = (
+				E23FF7EC20CCA44000825766 /* Common */,
 				E2A0A95820C33A2D00D4B485 /* Service */,
 				E2A0A95220C333F000D4B485 /* Cells */,
 				E20A45A220B977BA007B3566 /* CardView */,
@@ -353,6 +364,7 @@
 				E20A45A420B977CE007B3566 /* CardView.swift in Sources */,
 				E217388E20A717380020FF30 /* SSASideMenu.swift in Sources */,
 				E292D3D820BF23E300F0BB8A /* ListAllViewController.swift in Sources */,
+				E23FF7EE20CCA44F00825766 /* Common.swift in Sources */,
 				E299543520A0CE1D00B662EE /* HomeViewController.swift in Sources */,
 				E20A45A120B95B72007B3566 /* ContentMenuViewController.swift in Sources */,
 				E2A0A95120C3337100D4B485 /* VivoModel.swift in Sources */,

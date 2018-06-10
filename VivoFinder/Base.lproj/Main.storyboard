@@ -298,7 +298,7 @@
                                             <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="XYp-DK-jo1" kind="show" id="TnC-nI-dh4"/>
+                                            <segue destination="Nuk-69-vrD" kind="show" identifier="myLocation" id="yEH-Ww-hGo"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -319,7 +319,7 @@
                                 </constraints>
                             </view>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="z8b-6E-YzV">
-                                <rect key="frame" x="0.0" y="20" width="375" height="307"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="263"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -346,7 +346,7 @@
             </objects>
             <point key="canvasLocation" x="1295.2" y="-584.25787106446785"/>
         </scene>
-        <!--RESULT-->
+        <!--List All View Controller-->
         <scene sceneID="3f8-8l-Rig">
             <objects>
                 <viewController restorationIdentifier="listAllViewController" storyboardIdentifier="listAllViewController" id="Nuk-69-vrD" customClass="ListAllViewController" customModule="VivoFinder" customModuleProvider="target" sceneMemberID="viewController">
@@ -372,14 +372,29 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MwJ-bV-F45"/>
                     </view>
-                    <navigationItem key="navigationItem" title="RESULT" id="6hR-e0-ae1"/>
+                    <navigationItem key="navigationItem" id="6hR-e0-ae1"/>
                     <connections>
                         <outlet property="tableView" destination="3ud-Dv-9wS" id="aWt-aA-ODg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wWF-A8-Pui" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3359.1999999999998" y="-580.65967016491754"/>
+            <point key="canvasLocation" x="2150" y="-580"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Dyv-h0-BO0">
+            <objects>
+                <viewController id="Ala-BT-nKy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="19x-Jc-RqT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="BJ1-J9-rk0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qim-uq-TeE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2830" y="-584"/>
         </scene>
         <!--About View Controller-->
         <scene sceneID="aKh-s2-OUE">
@@ -493,24 +508,6 @@
             </objects>
             <point key="canvasLocation" x="116" y="-579.76011994002999"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="eLF-dg-mwA">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XYp-DK-jo1" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RCv-ez-Wge">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Nuk-69-vrD" kind="relationship" relationship="rootViewController" id="3e2-Eb-hKz"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="liV-ct-h4l" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2420" y="-580.65967016491754"/>
-        </scene>
     </scenes>
     <resources>
         <image name="background_night" width="640" height="960"/>
@@ -528,6 +525,6 @@
         <image name="icons8_subway" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ZIp-dG-DH9"/>
+        <segue reference="XqS-pk-mPo"/>
     </inferredMetricsTieBreakers>
 </document>
