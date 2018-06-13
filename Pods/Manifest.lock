@@ -1,20 +1,24 @@
 PODS:
   - Alamofire (4.7.2)
+  - AppBottomActionSheet (1.1)
   - SwiftyJSON (4.1.0)
 
 DEPENDENCIES:
   - Alamofire
+  - AppBottomActionSheet
   - SwiftyJSON
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - AppBottomActionSheet
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AppBottomActionSheet: 2fe6ee60ee95e7248791e15249e7e022df239c7e
   SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
 
-PODFILE CHECKSUM: 36cc82886fb51484744992fb8afe74569f665daf
+PODFILE CHECKSUM: 4a275bd11f16a4871e3fea3255033f2b80292e1c
 
 COCOAPODS: 1.5.0

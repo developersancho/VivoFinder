@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0940"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A058C8D6D8B7EB7A9A0679BDC5D6EBD8"
+               BlueprintIdentifier = "EF6166E98DB999440EF9242EA8475323"
                BuildableName = "Pods_VivoFinder.framework"
                BlueprintName = "Pods-VivoFinder"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A058C8D6D8B7EB7A9A0679BDC5D6EBD8"
+            BlueprintIdentifier = "EF6166E98DB999440EF9242EA8475323"
             BuildableName = "Pods_VivoFinder.framework"
             BlueprintName = "Pods-VivoFinder"
             ReferencedContainer = "container:Pods.xcodeproj">

@@ -24,13 +24,6 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
         map.showsUserLocation = true
-        
-        let istanbul = CLLocationCoordinate2D(latitude: 41.0102645, longitude: 28.9786778)
-        map.setRegion(MKCoordinateRegionMakeWithDistance(istanbul, 1500, 1500), animated: true)
-        
-        let pin = PinAnnotation(title: "Merkez", subtitle: "Great City", coordinate: istanbul)
-        
-        map.addAnnotation(pin)
     }
     
     override func viewDidLoad() {
@@ -45,20 +38,10 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         
         btnNearBy.layer.cornerRadius = 25
     }
-    /*
-    private func addPullUpController() {
-        guard
-            let pullUpController = UIStoryboard(name: "Main", bundle: nil)
-                .instantiateViewController(withIdentifier: "contentMenuViewController") as? ContentMenuViewController
-            else { return }
-        
-        addPullUpController(pullUpController)
-    }
-    */
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated);
-    }
     
+    override func viewDidAppear(_ animated: Bool) {
+        Common.myVivo = nil
+    }
     
     @IBAction func openNearByClick(_ sender: Any) {
         performSegue(withIdentifier: "myLocation", sender: self)
@@ -79,10 +62,12 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         let center = location.coordinate
         let span = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
         let region = MKCoordinateRegion(center: center, span: span)
-        
+
         map.setRegion(region, animated: true)
         map.showsUserLocation = true
+        
         myLocation = location
+        Common.vivoLocation = myLocation
     }
     
     func setupNavBar(){
@@ -104,5 +89,25 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         
     }
     
+    func checkLocationServiceAuthenticationStatus()
+    {
+        locationManager.delegate = self
+        if CLLocationManager.authorizationStatus() == .authorizedWhenInUse {
+            map.showsUserLocation = true
+            locationManager.startUpdatingLocation()
+        } else {
+            locationManager.requestWhenInUseAuthorization()
+            locationManager.startUpdatingLocation()
+        }
+    }
+    
+    private let regionRadius: CLLocationDistance = 1000 // 1km ~ 1 mile = 1.6km
+    func zoomMapOn(location: CLLocation)
+    {
+        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, regionRadius * 2.0, regionRadius * 2.0)
+        map.setRegion(coordinateRegion, animated: true)
+    }
+    
 }
+
 

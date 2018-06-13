@@ -36,7 +36,7 @@ class ListAllViewController: UIViewController {
         super.viewDidLoad()
         //setupNavBar()
         self.tableView.rowHeight = UITableViewAutomaticDimension
-        
+        //Common.myVivo = nil
         RefreshControl()
 
         //self.tableView.refreshControl = UIRefreshControl()
@@ -151,6 +151,19 @@ class ListAllViewController: UIViewController {
         }
     }
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "masterToDetail" {
+            let listMapVC = segue.destination as! ListMapViewController
+            listMapVC.vivo = sender as? VivoModel
+        } else if segue.identifier == "masterToMap" {
+            let mapVC = segue.destination as! MapViewController
+            mapVC.vivoData = vivoData
+        }
+    }
+   
+    
+    
 }
 
 extension ListAllViewController: UITableViewDelegate, UITableViewDataSource {
@@ -203,8 +216,6 @@ extension ListAllViewController: UITableViewDelegate, UITableViewDataSource {
                 cell.typeLabel.text = Common.MARKET
             }
             
-            
-            
         }
 
         return cell
@@ -212,7 +223,8 @@ extension ListAllViewController: UITableViewDelegate, UITableViewDataSource {
     
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        let vivo = vivoData[indexPath.row]
+        performSegue(withIdentifier: "masterToDetail", sender: vivo)
     }
     
 }
