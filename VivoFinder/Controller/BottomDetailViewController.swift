@@ -50,12 +50,13 @@ class BottomDetailViewController: UIViewController, HalfSheetPresentableProtocol
     @IBOutlet weak var imageType: UIImageView!
     @IBOutlet weak var labelType: UILabel!
     @IBOutlet weak var labelName: UILabel!
-    @IBOutlet weak var labelAddress: UILabel!
     @IBOutlet weak var labelDistance: UILabel!
+    @IBOutlet weak var labelAddress: UITextView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        labelAddress.isEditable = false
         labelName.text = Common.myVivo?.name
         labelAddress.text = Common.myVivo?.address
         labelDistance.text = (Common.myVivo?.distance?.toString())! + " km"

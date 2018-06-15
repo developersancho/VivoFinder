@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ContentMenuViewController: PullUpController {
+class ContentMenusViewController: PullUpController {
     
     @IBOutlet weak var headerView: UIView!
     @IBOutlet var visualEffectView: UIVisualEffectView!

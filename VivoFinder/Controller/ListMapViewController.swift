@@ -35,6 +35,7 @@ class ListMapViewController: UIViewController, CLLocationManagerDelegate, MKMapV
         
         let pin = PinAnnotation(code:(vivo?.code)! ,title: (vivo?.name)!, subtitle: (vivo?.brand)!, coordinate: myPin)
         mapDetail.addAnnotation(pin)
+        mapDetail.showAnnotations([pin], animated: true)
     }
     
     
