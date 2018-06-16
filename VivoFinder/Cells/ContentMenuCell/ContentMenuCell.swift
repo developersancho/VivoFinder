@@ -10,6 +10,17 @@ import UIKit
 import FoldingCell
 
 class ContentMenuCell : FoldingCell {
+    @IBOutlet weak var logoImageView: UIImageView!
+    @IBOutlet weak var leftView: UIView!
+    @IBOutlet weak var titleHeaderLabel: UILabel!
+    @IBOutlet weak var typeHeaderLabel: UILabel!
+    @IBOutlet weak var distanceHeaderLabel: UILabel!
+    
+    @IBOutlet weak var logoContentImageView: UIImageView!
+    @IBOutlet weak var typeContentLabel: UILabel!
+    @IBOutlet weak var distanceContentLabel: UILabel!
+    @IBOutlet weak var titleContentLabel: UILabel!
+    @IBOutlet weak var adressContentText: UITextView!
     
     
     override func awakeFromNib() {

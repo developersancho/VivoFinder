@@ -147,6 +147,7 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         } else if segue.identifier == "contentpush" {
             let vc = segue.destination as! ContentMenuTableViewController
             vc.type = self.myType
+            vc.mylocation = self.myLocation
         }
         
     }

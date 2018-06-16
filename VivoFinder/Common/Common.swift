@@ -26,6 +26,7 @@ class Common {
     
     static let primaryDark = UIColor().colorFromHex("7B1616")
     static let primary = UIColor().colorFromHex("8F2121")
+    static let gray = UIColor().colorFromHex("fbfbfb")
     static var vivoLocation = CLLocation()
     static var myVivo:VivoModel?
 }

@@ -68,7 +68,7 @@ class BottomDetailViewController: UIViewController, HalfSheetPresentableProtocol
             imageType.image = UIImage(named: "icons8_parking")
             labelType.text = Common.OTOPARK
         } else if Common.myVivo?.type == TYPE.AKBIL {
-            imageType.image = UIImage(named: "icon8_akbil")
+            imageType.image = UIImage(named: "icons8_akbil")
             labelType.text = Common.AKBIL
         } else if Common.myVivo?.type == TYPE.AVM {
             imageType.image = UIImage(named: "icons8_avm")

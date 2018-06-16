@@ -453,12 +453,12 @@
                                                                 <constraint firstAttribute="height" constant="45" id="sjS-Mn-KL1"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rönepark Sahil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ip-60-7wk">
-                                                            <rect key="frame" x="71" y="24" width="248" height="21"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ISBIKE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ip-60-7wk">
+                                                            <rect key="frame" x="103" y="24" width="216" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="eUq-vY-fs9"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="17"/>
+                                                            <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="20"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -475,7 +475,7 @@
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="bottom" secondItem="cas-5x-hkq" secondAttribute="bottom" constant="24" id="4JF-eb-WWk"/>
-                                                        <constraint firstItem="0Ip-60-7wk" firstAttribute="leading" secondItem="cas-5x-hkq" secondAttribute="trailing" constant="18" id="7ug-0Y-qlG"/>
+                                                        <constraint firstItem="0Ip-60-7wk" firstAttribute="leading" secondItem="cas-5x-hkq" secondAttribute="trailing" constant="50" id="7ug-0Y-qlG"/>
                                                         <constraint firstAttribute="trailing" secondItem="yJf-Sq-5kV" secondAttribute="trailing" constant="8" id="D4N-G1-Jon"/>
                                                         <constraint firstItem="cas-5x-hkq" firstAttribute="top" secondItem="LBP-6e-eM4" secondAttribute="top" constant="24" id="HCb-5a-4jm"/>
                                                         <constraint firstItem="0Ip-60-7wk" firstAttribute="top" secondItem="LBP-6e-eM4" secondAttribute="top" constant="24" id="Rta-6M-Vg7"/>
@@ -526,7 +526,7 @@
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="68" id="KoZ-D5-sPZ"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                         </textView>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FlE-Do-sll" userLabel="line">
@@ -569,60 +569,33 @@
                                                                 <constraint firstAttribute="height" constant="40" id="S3W-6E-B4J"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
-                                                            <state key="normal" title="KONUMU PAYLAŞ">
+                                                            <state key="normal" title="YOL TARİFİ">
                                                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </state>
                                                         </button>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="gbH-K1-0mg">
-                                                            <rect key="frame" x="8" y="26" width="309" height="32"/>
-                                                            <subviews>
-                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVk-Wv-cls">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="140" height="32"/>
-                                                                    <color key="backgroundColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                    <constraints>
-                                                                        <constraint firstAttribute="height" constant="32" id="CfM-dw-dBm"/>
-                                                                    </constraints>
-                                                                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
-                                                                    <state key="normal" title="YOL TARİFİ">
-                                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                    </state>
-                                                                </button>
-                                                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0F-1t-vK6">
-                                                                    <rect key="frame" x="169" y="0.0" width="140" height="32"/>
-                                                                    <color key="backgroundColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                    <constraints>
-                                                                        <constraint firstAttribute="height" constant="32" id="UB2-mh-qEe"/>
-                                                                    </constraints>
-                                                                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
-                                                                    <state key="normal" title="HARİTADA GÖSTER">
-                                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                    </state>
-                                                                </button>
-                                                            </subviews>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5n-84-thK">
+                                                            <rect key="frame" x="8" y="25" width="311" height="40"/>
+                                                            <color key="backgroundColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="trailing" secondItem="iVk-Wv-cls" secondAttribute="trailing" constant="169" id="4lr-C2-P8e"/>
-                                                                <constraint firstAttribute="trailing" secondItem="c0F-1t-vK6" secondAttribute="trailing" id="G5f-nh-Ve1"/>
-                                                                <constraint firstItem="c0F-1t-vK6" firstAttribute="leading" secondItem="gbH-K1-0mg" secondAttribute="leading" constant="169" id="Hrg-n4-ipH"/>
-                                                                <constraint firstItem="iVk-Wv-cls" firstAttribute="leading" secondItem="gbH-K1-0mg" secondAttribute="leading" id="ODE-BQ-Zjd"/>
-                                                                <constraint firstItem="iVk-Wv-cls" firstAttribute="top" secondItem="gbH-K1-0mg" secondAttribute="top" id="Z1P-UT-kIu"/>
-                                                                <constraint firstAttribute="bottom" secondItem="iVk-Wv-cls" secondAttribute="bottom" id="aWP-Kt-Fvs"/>
-                                                                <constraint firstAttribute="bottom" secondItem="c0F-1t-vK6" secondAttribute="bottom" id="kqi-5S-v9j"/>
-                                                                <constraint firstItem="c0F-1t-vK6" firstAttribute="top" secondItem="gbH-K1-0mg" secondAttribute="top" id="xA3-or-NuH"/>
+                                                                <constraint firstAttribute="height" constant="40" id="6Hl-up-Thh"/>
                                                             </constraints>
-                                                        </stackView>
+                                                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                                            <state key="normal" title="HARİTADA GÖSTER">
+                                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </state>
+                                                        </button>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
+                                                        <constraint firstItem="S5n-84-thK" firstAttribute="leading" secondItem="K7F-oj-kqZ" secondAttribute="leading" constant="8" id="0zj-ca-0hX"/>
                                                         <constraint firstAttribute="bottom" secondItem="Jtr-56-Wq9" secondAttribute="bottom" constant="8" id="1oC-uC-7Qr"/>
-                                                        <constraint firstItem="gbH-K1-0mg" firstAttribute="top" secondItem="K7F-oj-kqZ" secondAttribute="top" constant="26" id="87S-pe-vBG"/>
-                                                        <constraint firstItem="gbH-K1-0mg" firstAttribute="leading" secondItem="Jtr-56-Wq9" secondAttribute="leading" id="El2-cG-MnX"/>
+                                                        <constraint firstItem="S5n-84-thK" firstAttribute="top" secondItem="K7F-oj-kqZ" secondAttribute="top" constant="25" id="IFL-mD-ruy"/>
+                                                        <constraint firstAttribute="bottom" secondItem="S5n-84-thK" secondAttribute="bottom" constant="70" id="L97-xp-L9P"/>
+                                                        <constraint firstAttribute="trailing" secondItem="S5n-84-thK" secondAttribute="trailing" constant="8" id="Oxy-Tl-Cm2"/>
                                                         <constraint firstAttribute="height" constant="135" id="Rl2-ic-PK0"/>
-                                                        <constraint firstItem="gbH-K1-0mg" firstAttribute="leading" secondItem="K7F-oj-kqZ" secondAttribute="leading" constant="8" id="Wku-ze-0Yh"/>
-                                                        <constraint firstItem="Jtr-56-Wq9" firstAttribute="top" secondItem="gbH-K1-0mg" secondAttribute="bottom" constant="29" id="a4h-He-9Sh"/>
                                                         <constraint firstItem="Jtr-56-Wq9" firstAttribute="top" secondItem="K7F-oj-kqZ" secondAttribute="top" constant="87" id="cH9-O2-Cc6"/>
                                                         <constraint firstAttribute="trailing" secondItem="Jtr-56-Wq9" secondAttribute="trailing" constant="8" id="cYD-5Y-GxB"/>
                                                         <constraint firstItem="Jtr-56-Wq9" firstAttribute="leading" secondItem="K7F-oj-kqZ" secondAttribute="leading" constant="8" id="dPu-vy-PfM"/>
-                                                        <constraint firstAttribute="trailing" secondItem="gbH-K1-0mg" secondAttribute="trailing" constant="10" id="flf-hs-pa8"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -662,10 +635,20 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
+                                    <outlet property="adressContentText" destination="b69-cm-3Cz" id="XEr-ye-rpj"/>
                                     <outlet property="containerView" destination="aAg-E1-9Gi" id="NUh-z6-77h"/>
                                     <outlet property="containerViewTop" destination="ayY-cK-HUa" id="YCd-G0-GTj"/>
+                                    <outlet property="distanceContentLabel" destination="yJf-Sq-5kV" id="I77-Qm-9aj"/>
+                                    <outlet property="distanceHeaderLabel" destination="B5E-Zf-gac" id="pk1-Fk-jaS"/>
                                     <outlet property="foregroundView" destination="tvK-nQ-PXa" id="t6k-nW-txB"/>
                                     <outlet property="foregroundViewTop" destination="KZD-xo-b1W" id="nCm-lf-LVe"/>
+                                    <outlet property="leftView" destination="Jaq-JR-yKX" id="n3G-jG-OGf"/>
+                                    <outlet property="logoContentImageView" destination="cas-5x-hkq" id="XKg-lI-6Of"/>
+                                    <outlet property="logoImageView" destination="drA-Du-0zS" id="FwB-YN-7ZL"/>
+                                    <outlet property="titleContentLabel" destination="nYh-HH-dPl" id="pfY-Wb-V3b"/>
+                                    <outlet property="titleHeaderLabel" destination="egK-4k-aQI" id="TbW-T0-9a9"/>
+                                    <outlet property="typeContentLabel" destination="0Ip-60-7wk" id="CVl-4e-cmJ"/>
+                                    <outlet property="typeHeaderLabel" destination="pSa-qg-V0j" id="JBl-2r-pzS"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
