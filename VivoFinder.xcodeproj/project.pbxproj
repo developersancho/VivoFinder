@@ -24,7 +24,6 @@
 		E24729CD20B01C3E0052FE0B /* SlidingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24729CC20B01C3E0052FE0B /* SlidingViewController.swift */; };
 		E2662E6F20CFB9F000114CBA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2662E6E20CFB9F000114CBA /* MapViewController.swift */; };
 		E2662E7120CFBFD800114CBA /* ListMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2662E7020CFBFD800114CBA /* ListMapViewController.swift */; };
-		E28635A820D41B2E00F4B69F /* HomeContentMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28635A720D41B2E00F4B69F /* HomeContentMenuViewController.swift */; };
 		E292D3D820BF23E300F0BB8A /* ListAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E292D3D720BF23E300F0BB8A /* ListAllViewController.swift */; };
 		E299543320A0CE1D00B662EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299543220A0CE1D00B662EE /* AppDelegate.swift */; };
 		E299543520A0CE1D00B662EE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299543420A0CE1D00B662EE /* HomeViewController.swift */; };
@@ -36,6 +35,8 @@
 		E2A0A95720C3341900D4B485 /* VivoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2A0A95520C3341900D4B485 /* VivoTableViewCell.xib */; };
 		E2A0A95A20C33A3D00D4B485 /* VivoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A0A95920C33A3D00D4B485 /* VivoService.swift */; };
 		E2C9D6C820D1364A00EB0E53 /* BottomDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9D6C720D1364A00EB0E53 /* BottomDetailViewController.swift */; };
+		E2FFD36820D535700040FB10 /* ContentMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FFD36720D535700040FB10 /* ContentMenuCell.swift */; };
+		E2FFD36A20D53CC80040FB10 /* ContentMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FFD36920D53CC80040FB10 /* ContentMenuTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,7 +59,6 @@
 		E24729CC20B01C3E0052FE0B /* SlidingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingViewController.swift; sourceTree = "<group>"; };
 		E2662E6E20CFB9F000114CBA /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		E2662E7020CFBFD800114CBA /* ListMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMapViewController.swift; sourceTree = "<group>"; };
-		E28635A720D41B2E00F4B69F /* HomeContentMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContentMenuViewController.swift; sourceTree = "<group>"; };
 		E292D3D720BF23E300F0BB8A /* ListAllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAllViewController.swift; sourceTree = "<group>"; };
 		E299542F20A0CE1D00B662EE /* VivoFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VivoFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E299543220A0CE1D00B662EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +72,8 @@
 		E2A0A95520C3341900D4B485 /* VivoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VivoTableViewCell.xib; sourceTree = "<group>"; };
 		E2A0A95920C33A3D00D4B485 /* VivoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VivoService.swift; sourceTree = "<group>"; };
 		E2C9D6C720D1364A00EB0E53 /* BottomDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomDetailViewController.swift; sourceTree = "<group>"; };
+		E2FFD36720D535700040FB10 /* ContentMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMenuCell.swift; sourceTree = "<group>"; };
+		E2FFD36920D53CC80040FB10 /* ContentMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMenuTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,7 +216,7 @@
 				E2662E6E20CFB9F000114CBA /* MapViewController.swift */,
 				E2662E7020CFBFD800114CBA /* ListMapViewController.swift */,
 				E2C9D6C720D1364A00EB0E53 /* BottomDetailViewController.swift */,
-				E28635A720D41B2E00F4B69F /* HomeContentMenuViewController.swift */,
+				E2FFD36920D53CC80040FB10 /* ContentMenuTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -223,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				E2A0A95320C3340300D4B485 /* VivoCell */,
+				E2FFD36D20D55FD40040FB10 /* ContentMenuCell */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -242,6 +245,14 @@
 				E2A0A95920C33A3D00D4B485 /* VivoService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		E2FFD36D20D55FD40040FB10 /* ContentMenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				E2FFD36720D535700040FB10 /* ContentMenuCell.swift */,
+			);
+			path = ContentMenuCell;
 			sourceTree = "<group>";
 		};
 		F778C1DB704B0DA08CA0A4A3 /* Pods */ = {
@@ -350,12 +361,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-VivoFinder/Pods-VivoFinder-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AppBottomActionSheet/AppBottomActionSheet.framework",
+				"${BUILT_PRODUCTS_DIR}/FoldingCell/FoldingCell.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppBottomActionSheet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoldingCell.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,7 +384,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E217389420A71A6E0020FF30 /* AboutViewController.swift in Sources */,
-				E28635A820D41B2E00F4B69F /* HomeContentMenuViewController.swift in Sources */,
 				E24729CB20B01A3F0052FE0B /* TSSlidingUpPanelManager.swift in Sources */,
 				E2A0A95A20C33A3D00D4B485 /* VivoService.swift in Sources */,
 				E2467B1120A87A0F00C99BEA /* Extensions.swift in Sources */,
@@ -384,6 +396,7 @@
 				E20A45A120B95B72007B3566 /* ContentMenusViewController.swift in Sources */,
 				E2A0A95120C3337100D4B485 /* VivoModel.swift in Sources */,
 				E217389620A731FE0020FF30 /* InfoViewController.swift in Sources */,
+				E2FFD36A20D53CC80040FB10 /* ContentMenuTableViewController.swift in Sources */,
 				E2662E6F20CFB9F000114CBA /* MapViewController.swift in Sources */,
 				E2A0A95620C3341900D4B485 /* VivoTableViewCell.swift in Sources */,
 				E217389020A71A2C0020FF30 /* LeftMenuViewController.swift in Sources */,
@@ -392,6 +405,7 @@
 				E20A459F20B95B1B007B3566 /* PullUpController.swift in Sources */,
 				E2C9D6C820D1364A00EB0E53 /* BottomDetailViewController.swift in Sources */,
 				E2662E7120CFBFD800114CBA /* ListMapViewController.swift in Sources */,
+				E2FFD36820D535700040FB10 /* ContentMenuCell.swift in Sources */,
 				E217389220A71A440020FF30 /* RightMenuViewController.swift in Sources */,
 				E24729CD20B01C3E0052FE0B /* SlidingViewController.swift in Sources */,
 			);

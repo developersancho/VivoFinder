@@ -1,24 +1,28 @@
 PODS:
   - Alamofire (4.7.2)
   - AppBottomActionSheet (1.1)
+  - FoldingCell (3.1.1)
   - SwiftyJSON (4.1.0)
 
 DEPENDENCIES:
   - Alamofire
   - AppBottomActionSheet
+  - FoldingCell
   - SwiftyJSON
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - AppBottomActionSheet
+    - FoldingCell
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   AppBottomActionSheet: 2fe6ee60ee95e7248791e15249e7e022df239c7e
+  FoldingCell: 238c33ae8d9cd655090c9c4c5ff32596cfd18c6e
   SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
 
-PODFILE CHECKSUM: 4a275bd11f16a4871e3fea3255033f2b80292e1c
+PODFILE CHECKSUM: 208063be9b97cf33deb91e11ca87433d8836384d
 
 COCOAPODS: 1.5.0

@@ -8,4 +8,7 @@ target 'VivoFinder' do
   pod 'Alamofire'
   pod 'SwiftyJSON'
   pod 'AppBottomActionSheet'
+  pod 'FoldingCell'
+
+
 end

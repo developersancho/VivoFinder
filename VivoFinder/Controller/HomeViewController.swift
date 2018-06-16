@@ -145,7 +145,7 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
             let vc = segue.destination as! ListAllViewController
             vc.mylocation = self.myLocation
         } else if segue.identifier == "contentpush" {
-            let vc = segue.destination as! HomeContentMenuViewController
+            let vc = segue.destination as! ContentMenuTableViewController
             vc.type = self.myType
         }
         
@@ -192,33 +192,6 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         let height = barButton.customView?.heightAnchor.constraint(equalToConstant: 30)
         height?.isActive = true
         
-        //navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Kategoriler", style: .done, target: self, action: #selector(SSASideMenu.presentRightMenuViewController))
-        
     }
     
 }
-
-//extension HomeViewController {
-//
-//    func checkLocationServiceAuthenticationStatus()
-//    {
-//        locationManager.delegate = self
-//        if CLLocationManager.authorizationStatus() == .authorizedWhenInUse {
-//            map.showsUserLocation = true
-//            locationManager.startUpdatingLocation()
-//        } else {
-//            locationManager.requestWhenInUseAuthorization()
-//            locationManager.startUpdatingLocation()
-//        }
-//    }
-//
-//    private let regionRadius: CLLocationDistance = 1000 // 1km ~ 1 mile = 1.6km
-//    func zoomMapOn(location: CLLocation)
-//    {
-//        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, regionRadius * 2.0, regionRadius * 2.0)
-//        map.setRegion(coordinateRegion, animated: true)
-//    }
-//
-//}
-
-
